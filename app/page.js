@@ -29,7 +29,7 @@ const deleteHandler = (i)=>{
         <>
        
         
-          <div key={i} className='flex justify-between m-3'>
+          <div key={i} className='flex justify-between m-3 '>
              
             <h2 className='text-xl font-semibold'>{t.title}
             </h2>
@@ -66,7 +66,7 @@ const deleteHandler = (i)=>{
          onChange={(e)=>{
           setdesc(e.target.value)
          }} ></input>
-       <button className='bg-black text-white text-2xl font-bold p-2 rounded-md hover:bg-gray-600'>Add Task</button>
+       <button className='bg-black text-white text-2xl font-bold p-2 rounded-md hover:bg-gray-600 m-8 ml-28'>Add Task</button>
       </form>
       <hr/>
       <div className='bg-gray-400 p-8'>
